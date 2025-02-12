@@ -201,7 +201,21 @@ function getMatchDescription(martinMood: string | null, agneMood: string | null)
     "cute-religious": "A saint and a cinnamon roll? Religious Agne is trying to pray, but Cute Martin just keeps looking adorable. ✝️🥺",
     "cute-hungry": "Cute Martin brings the charm, and Hungry Agne brings... the appetite. Let’s be real, this date is at an all-you-can-eat buffet. 🍔💖",
     "cute-crazy": "Chaos meets kindness. Cute Martin thinks Crazy Agne is ‘just passionate’—until she suggests skydiving for date night. 🎢💞",
-    // Add other moods here
+
+    "cheeky-freaky": "Oh, this duo? Absolute *menace* energy. Cheeky Martin’s winks + Freaky Agne’s boldness? 🔥 Someone call security. 😉😏",
+    "cheeky-religious": "Cheeky Martin cracks jokes, and Religious Agne keeps trying to ‘save’ him. Opposites attract... or do they? 😂🙏",
+    "cheeky-hungry": "Cheeky Martin steals Hungry Agne’s fries—*big mistake*. He’ll pay for it in ways he can’t imagine. 🍟💀",
+    "cheeky-crazy": "Cheeky Martin starts mischief, Crazy Agne *finishes* it. This is pure chaos and no regrets. 🤡🔥",
+
+    "sexy-freaky": "Sexy Martin meets Freaky Agne? Oh, we’re in *danger*. Their chemistry is basically a rom-com with a PG-18 rating. 😘💥",
+    "sexy-religious": "Sexy Martin tries to flirt, but Religious Agne just hands him a Bible. It's a *battle of purity vs temptation*. 😇😈",
+    "sexy-hungry": "Sexy Martin is bringing the heat, but Hungry Agne is focused on the *real* priority—food. He has *competition*. 🍕🔥",
+    "sexy-crazy": "Sexy Martin thought he was the bold one, but Crazy Agne *is built different*. This match is *pure fireworks*. 🎇💋",
+
+    "sideEye-freaky": "Side-Eye Martin is judging Freaky Agne's chaotic energy. Meanwhile, she's planning their next adventure. A hilarious disaster. 🙄🔥",
+    "sideEye-religious": "Side-Eye Martin just raised an eyebrow, and Religious Agne already thinks he needs to *repent*. Awkward. 😏🙏",
+    "sideEye-hungry": "Side-Eye Martin watches in horror as Hungry Agne devours an entire pizza. He’s scared—but impressed. 🍕👀",
+    "sideEye-crazy": "Side-Eye Martin tried to stay cool, but Crazy Agne just challenged him to a dance battle in public. He lost. 💃😂",
   };
 
   return matchDescriptions[`${martinMood}-${agneMood}`] || "A match made in... some kind of chaotic love lab! 💘";

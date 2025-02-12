@@ -41,7 +41,7 @@ function Character_martin({ onSelectMood }: { onSelectMood: (mood: string) => vo
         </p>
       </div>
     );
-  } else if (character === "sideEye") {
+  } else if (character === "sideeye") {
     characterDescription = (
       <div>
         <h3>You chose: Side Eye Martin 👀💅</h3>
