@@ -1,0 +1,95 @@
+#root {
+    max-width: 1280px;
+    margin: 0 auto;
+    padding: 2rem;
+    text-align: center;
+  }
+  
+  .valentine-container {
+    font-family: sans-serif;
+    text-align: center;
+  }
+  
+  h1 {
+    font-size: 2em;
+    line-height: 1.1;
+    padding-bottom: 10px;
+  }
+
+  h3 {
+    padding-top: 50px
+  }
+  
+  .btn2 {
+    margin-left: 40px;
+    background-color: red;
+    border-color: red;
+    font-size: 25px;
+  }
+  
+  .btn1 {
+    background-color: limegreen;
+    border-color: limegreen;
+    font-size: 35px;
+  }
+  
+  .btn1:hover {
+    background-color: green;
+    border-color: green;
+  }
+  
+  img {
+    height: 35%;
+    width: 35%;
+    padding-bottom: 20px;
+  }
+  
+  body {
+    margin: 0;
+    display: flex;
+    place-items: center;
+    min-width: 320px;
+    min-height: 100vh;
+  }
+  
+  .moodButton {
+    cursor: pointer;
+    will-change: filter;
+    transition: filter 300ms;
+    display: flex;
+    flex-direction: column;
+    transition: transform 0.3s ease;
+  }
+  
+  .moodButton:hover {
+    filter: drop-shadow(0 0 2em orange);
+    transform: scale(1.5);
+  }
+  
+  .image-text {
+    text-align: center; /* Center-align the text */
+    font-size: 25px; /* Adjust the font size as needed */
+    margin-top: -15px; /* Add margin above the text */
+    font-weight: bold;
+  }
+  .moodButtonGrid {
+    display: grid;
+    grid-template-columns: repeat(4, 1fr);
+    gap: 60px;
+  }
+  
+  .moodButtonGrid img {
+    width: 100%; /* Adjust the width as needed */
+    height: auto;
+  }
+  
+  .characterDescription {
+    padding-top: 20px;
+  }
+  
+  .next-phase {
+    position: absolute;
+    bottom: 5%;
+    left: 50%;
+    transform: translateX(-50%);
+  }
